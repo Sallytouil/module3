@@ -1,0 +1,107 @@
+body {
+  color: black;
+  background-color: #FEFCFF;
+  font-family: lora;
+  
+}
+
+/* HEADER */
+#header-nav {
+  background-color: papayawhip ;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 25px;
+  margin-bottom: 20px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora';
+  color: darkred;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+#nav-list {
+  margin-top: 0;
+
+}
+#nav-list a {
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  border: 2px solid black;
+  background: white;
+  opacity: .6;
+  font-size: .8.3em;
+  line-height: 2;
+}
+
+#nav-list a:hover {
+  background: papayawhip;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 3px solid darkgrey;
+  background-color: papayawhip;
+}
+ .navbar-header button.navbar-toggle:hover {
+  background-color: papayawhip;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+/* END HEADER */
+
+
+
+/* HOME PAGE */
+h2 {
+   font-weight: 700;
+   margin-bottom: 40px;
+   margin-top: 0;
+  opacity: .6;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 9px;
+  margin-bottom: 20px;
+  font-weight: bold;
+ opacity: .6;
+}
+#main-content {
+  width: 100%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+div #chicken-menu{
+  border: 1px solid black;
+  background-color: gray;
+  margin-right: 0;
+  margin-left: 0;
+}
+div #content {
+  padding: 10px 20px 10px;
+  color: black;
+  opacity: .6;
+  font-weight: bold;
+  font-size: .8.3em;
+  line-height: 2;
+}
+
+/* END HOME PAGE */
+
+
